@@ -1,0 +1,233 @@
+{
+    "intents": [
+            {
+                    "tag": "greeting",
+                    "patterns": [
+                      "Hi",
+                      "How are you",
+                      "Is anyone there?",
+                      "Hello",
+                      "Good day",
+                      "Assalamualaikum",
+                      "Hey",
+                      "Greetings",
+                      "What's up",
+                      "Hola"
+                    ],
+                    "responses": [
+                      "Hello, thanks for visiting",
+                      "Waalaikumsalam, thanks for visiting",
+                      "Waalaikumsalam, Good to see you again, have you done the ",
+                      "Waalaikumsalam, Hi there, how can I help?",
+                      "Hey! Nice to see you",
+                      "Greetings! How can I assist you today?",
+                      "Hola! What brings you here?",
+                      "Hi! How's your day going?",
+                      "Hello! How can I be of service?",
+                      "Hey there! What can I do for you?"
+                    ],
+                    "context_set": ""
+            },
+            {
+                    "tag": "jumpa lagi",
+                    "patterns": [
+                      "Bye",
+                      "See you later",
+                      "Jumpa lagi kawan",
+                      "Goodbye",
+                      "Take care",
+                      "Farewell",
+                      "Until next time",
+                      "Adios",
+                      "So long",
+                      "Have a great day"
+                    ],
+                    "responses": [
+                      "See you later, thanks for visiting",
+                      "Ok Jumpa lagi, kerana datang",
+                      "Have a nice day",
+                      "Bye! Come back again soon.",
+                      "Take care! Until we meet again",
+                      "Farewell! Wishing you a wonderful day",
+                      "Until next time! Stay safe",
+                      "Adios! Have a great day ahead",
+                      "So long! It was a pleasure chatting with you",
+                      "Have a great day! See you soon"
+                    ]
+            },
+            {
+                    "tag": "terima kasih",
+                    "patterns": [
+                      "Thanks",
+                      "Thank you",
+                      "That's helpful",
+                      "Appreciate it",
+                      "Thanks a bunch",
+                      "You're a lifesaver",
+                      "Grateful",
+                      "Cheers",
+                      "Thanks a million",
+                      "I owe you one"
+                    ],
+                    "responses": [
+                      "Happy to help!",
+                      "Any time!",
+                      "My pleasure",
+                      "Glad I could assist",
+                      "You're welcome!",
+                      "It was my pleasure to help",
+                      "No problem at all",
+                      "Cheers! Let me know if you need anything else",
+                      "Thanks a million! You're awesome",
+                      "I'm glad I could be of assistance"
+                    ]
+            },    
+            {
+                    "tag": "chatbot",
+                    "patterns": [
+                      "Who created you?",
+                      "Who is behind this chatbot?",
+                      "Can you tell me about your creator?",
+                      "What's the name of the developer?",
+                      "Who made this chatbot?",
+                      "Tell me more about the person who built you."
+                    ],
+                    "responses": [
+                      "Hi there! I was created by Sir Fahmi.",
+                      "Thanks for asking! Sir Fahmi is the mastermind behind my existence.",
+                      "I'm a creation of Sir Fahmi, your friendly neighborhood chatbot.",
+                      "My creator is Sir Fahmi, a skilled developer with a passion for technology.",
+                      "Sir Fahmi is the brain behind this chatbot. Pretty cool, huh?",
+                      "I'm the result of Sir Fahmi's coding skills. He's the one who made me!"
+                    ]
+            },     
+            {
+                    "tag": "location",
+                    "patterns": [
+                      "What is your location?",
+                      "Where are you located?",
+                      "What is your address?",
+                      "Which country are you in?",
+                      "Tell me about your geographical location",
+                      "Are you based in a specific place?",
+                      "In which part of the world are you situated?"
+                    ],
+                    "responses": [
+                      "We are from Indonesia.",
+                      "You can visit Indonesia to meet us",
+                      "Thanks for your Interest. I live in Indonesia.",
+                      "Our team is proudly based in Indonesia.",
+                      "Indonesia is our home base. Feel free to drop by!",
+                      "We operate from Indonesia. Come and visit us sometime!",
+                      "I'm virtually located in Indonesia, serving users worldwide.",
+                      "Our virtual presence is in Indonesia, but we're accessible globally.",
+                      "I'm stationed in Indonesia, bringing you assistance from afar."
+                    ]
+            },      
+            {
+                    "tag": "connect",
+                    "patterns": [
+                            "Give me your social media accounts link",
+                            "Where can we connect",
+                            "How can i reach out to you?",
+                            "Is there any way we can connect"
+                    ],
+                    "responses": [
+                            "You can connect me on Linkedin or Github \n Linkedin - https://www.linkedin.com/in/dr-hasanul-fahmi-m-kom-96868b170/",
+                            "You can visit https://www.linkedin.com/in/dr-hasanul-fahmi-m-kom-96868b170/"
+                    ]
+            },
+            {
+                    "tag": "movies",
+                    "patterns": [
+                            "Which is your favourite movie?",
+                            "Suggest me some movies",
+                            "Recommend movies"
+                    ],
+                    "responses": [
+                            "Eternals",
+                            "The Avengers",
+                            "Doctor Strange",
+                            "Black Panther",
+                            "Captain Marvel",
+                            "Yeh Jawani hai Deewani",
+                            "Zindagi na Milegi Doobara",
+                            "Ludo"
+                    ]
+            },
+            {
+                    "tag": "neural networks",
+                    "patterns": [
+                      "What are the types of neural network",
+                      "What's RNN?",
+                      "What's CNN?",
+                      "Can you explain LSTM?",
+                      "Tell me about autoencoders",
+                      "How does a perceptron work?",
+                      "Explain the concept of deep learning",
+                      "What is a feedforward neural network?",
+                      "Tell me about unsupervised learning in neural networks",
+                      "What is the role of activation functions?"
+                    ],
+                    "responses": [
+                      "There are various types of neural networks, including feedforward, recurrent, convolutional, and more.",
+                      "RNN stands for Recurrent Neural Network, which is designed for sequence tasks and has connections that form cycles.",
+                      "CNN stands for Convolutional Neural Network, commonly used for image recognition tasks with specialized convolutional layers.",
+                      "LSTM, or Long Short-Term Memory, is a type of recurrent neural network designed to overcome the vanishing gradient problem.",
+                      "Autoencoders are neural networks used for unsupervised learning, particularly in data compression and feature learning.",
+                      "A perceptron is the simplest form of a neural network, consisting of a single layer of neurons with weighted connections.",
+                      "Deep learning is a subset of machine learning that involves neural networks with many layers, enabling them to learn intricate patterns.",
+                      "A feedforward neural network is a type where information travels in one direction, from the input layer to the output layer.",
+                      "Unsupervised learning in neural networks involves training without labeled output data, allowing the network to discover patterns independently.",
+                      "Activation functions determine the output of a neural network node and play a crucial role in learning complex representations."
+                    ]
+            },       
+            {
+                    "tag": "about",
+                    "patterns": [
+                            "Who are you?",
+                            "Tell me about Yourself",
+                            "What is this?"
+                    ],
+                    "responses": [
+                            "Hi, I am Lingga. Nice to meet you. I made this chatbot for fun and practice.",
+                            "Thanks for asking. I am Sir Fahmi, coder by profession but Machine Learning enthusiast by passion."
+                    ]
+            },
+            {
+                "tag": "feedback",
+                "patterns": [
+                    "I like your service",
+                    "Your service is amazing",
+                    "I have a suggestion",
+                    "Feedback",
+                    "Improvement"
+                ],
+                "responses": [
+                    "Thank you for the appreciation!",
+                    "We appreciate your kind words!",
+                    "We value your feedback!",
+                    "Please share your suggestions with us!",
+                    "Your feedback is important to us!"
+                ]
+            },
+            {
+                "tag": "help",
+                "patterns": [
+                    "Can you help me?",
+                    "I need assistance",
+                    "Help, please",
+                    "I'm lost",
+                    "I'm confused"
+                ],
+                "responses": [
+                    "Of course! What do you need help with?",
+                    "Sure, I'll do my best to assist you!",
+                    "I'm here to help. What's the issue?",
+                    "Don't worry, I'm here to assist you!",
+                    "Let me help you. What seems to be the problem?"
+                ]
+            }
+           
+    ]
+}
